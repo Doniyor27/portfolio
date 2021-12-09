@@ -88,9 +88,9 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/wp4923980.jpg);
+	background: #282c34;
 	margin-top: -70px;
-	padding-top: 250px;
+	padding-top: 165px;
 	text-align:center;
 	background-attachment: relative;
 	background-position:  0 -408px;
@@ -149,7 +149,9 @@ h1, h2, h3, h4, h5, h6 {
 
 #headerwrap h4 {
 	font-weight: 400;
-	color: #ffffff
+	color: #ffffff;
+	margin-top: 30px;
+	
 }
 
 #social {
@@ -241,7 +243,10 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
-
+.about-me {
+	font-size: 24px;
+	margin-top: 25px;
+}
 
 
 /* Gallery */
@@ -256,4 +261,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .gallery img:hover {
 	opacity: 0.4;
+}
+
+.react-logo {
+	max-width: 100px;
+	max-height: 100px;
 }
